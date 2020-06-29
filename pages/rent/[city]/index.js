@@ -17,7 +17,7 @@ const Test = () => {
 		<div>
 			Testing
 			<Link
-				href="/rent/?pId=1&name=nice-condo"
+				href="/rent/[city]/?pId=1&name=nice-condo"
 				as={`/rent/sunnyvale/p4342/nice-condo`}
 				shallow={true}
 				passHref={true}
